@@ -8,42 +8,42 @@ HEADER_STRUCTURE = {
   },
   flags:
   {
-    QR:
+    qr:
     {
       bits: 1,
       default_value: 0
     },
-    OPCODE:
+    opcode:
     {
       bits: 4,
       default_value: 0
     },
-    AUTHORITATIVE_ANSWER:
+    authoritative_answer:
     {
       bits: 1,
       default_value: 0
     },
-    TRUNCATION:
+    truncation:
     {
       bits: 1,
       default_value: 0
     },
-    RECURSION_DESIRED:
+    recursion_desired:
     {
       bits: 1,
       default_value: 1
     },
-    RECURSION_AVAILABLE:
+    recursion_available:
     {
       bits: 1,
       default_value: 0
     },
-    Z:
+    z:
     {
       bits: 3,
       default_value: 0
     },
-    RCODE:
+    rcode:
     {
       bits: 4,
       default_value: 0
@@ -51,22 +51,22 @@ HEADER_STRUCTURE = {
   },
   question_count:
   {
-    bits: 16
+    bits: 16,
     default_value: 1
   },
   answer_resource_record:
   {
-    bits: 16
+    bits: 16,
     default_value: 0
   },
   authority_resource_record:
   {
-    bits: 16
+    bits: 16,
     default_value: 0
   },
   additional_resource_record:
   {
-    bits: 16
+    bits: 16,
     default_value: 0
   }
 }
