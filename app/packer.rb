@@ -1,5 +1,6 @@
 #packer.rb
 require_relative 'header_structure'
+
 class Packer
   NULL_TERMINATOR = 0
 
